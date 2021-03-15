@@ -18,6 +18,8 @@
   "homepage": "https://github.com/vorxcomp/amazon-ps5-checker#readme",
   "dependencies": {
     "chalk": "^4.1.0",
+    "node-notifier": "^9.0.1",
+    "open": "^8.0.2",
     "selenium-webdriver": "^4.0.0-beta.1"
   }
 }
