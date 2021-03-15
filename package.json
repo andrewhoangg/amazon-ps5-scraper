@@ -1,0 +1,23 @@
+{
+  "name": "amazon-ps5-checker",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vorxcomp/amazon-ps5-checker.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vorxcomp/amazon-ps5-checker/issues"
+  },
+  "homepage": "https://github.com/vorxcomp/amazon-ps5-checker#readme",
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "selenium-webdriver": "^4.0.0-beta.1"
+  }
+}
