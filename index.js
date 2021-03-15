@@ -1,7 +1,7 @@
 const discURL = "https://www.amazon.com/gp/product/B08FC5L3RG";
 const digitalURL = "https://www.amazon.com/dp/B08FC6MR62"
 
-//const testURL = "https://www.amazon.com/Nintendo-Switch-Pro-Controller/dp/B01NAWKYZ0"
+const testURL = "https://www.amazon.com/Nintendo-Switch-Pro-Controller/dp/B01NAWKYZ0"
 
 const path = require('path');
 
@@ -15,8 +15,6 @@ const cheerio = require('cheerio');
 const chalk = require('chalk')
 
 const got = require('got');
-
-
 
 /**
  * Scrape Amazon's listing for digital and disc version of PS5s
@@ -79,14 +77,11 @@ function checkDisc() {
   });
 }
 
-
-// main, runs on start
-
 function main() {
   setInterval(function () {
     checkDigital();
     checkDisc();
-  }, 5000) // retries every 5000 ms (5 secs) to prevent rate limitation by amazon 😎 (until i get rotating proxies)
+  }, 60000) // retries every 60000 ms (1min) to prevent rate limitation by amazon 😎 (until i get rotating proxies)
 }
 
 main(); // call main to start

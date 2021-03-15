@@ -16,7 +16,7 @@ npm install
 ## Usage
 Open a terminal and cd into the project directory & run
 ```npm
-npm index.js
+node index.js
 ```
 to install necessary dependencies
 
