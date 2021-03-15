@@ -60,7 +60,6 @@ function checkDigital() {
     const $ = cheerio.load(response.body);
     let stockStatus = $("#add-to-cart-button").length;
 
-    console.log(stockStatus)
     (stockStatus == 0 ? output("Digital", "out of stock") : output("Digital", "in stock"));
 
   }).catch(err => {
@@ -84,12 +83,9 @@ function checkDisc() {
 // main, runs on start
 
 function main() {
-  setInterval(async function () {
-
+  setInterval(function () {
     checkDigital();
-    //checkDisc();
-  
-  
+    checkDisc();
   }, 5000) // retries every 5000 ms (5 secs) to prevent rate limitation by amazon 😎 (until i get rotating proxies)
 }
 
