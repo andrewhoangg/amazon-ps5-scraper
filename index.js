@@ -1,8 +1,6 @@
 const discURL = "https://www.amazon.com/gp/product/B08FC5L3RG";
 const digitalURL = "https://www.amazon.com/dp/B08FC6MR62"
 
-const testURL = "https://www.amazon.com/Nintendo-Switch-Pro-Controller/dp/B01NAWKYZ0"
-
 const path = require('path');
 
 const discImg = path.join(__dirname, '/assets/disc.png');
