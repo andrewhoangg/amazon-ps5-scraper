@@ -1,5 +1,5 @@
 {
-  "name": "amazon-ps5-checker",
+  "name": "amazon-ps5-scraper",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -18,8 +18,10 @@
   "homepage": "https://github.com/vorxcomp/amazon-ps5-checker#readme",
   "dependencies": {
     "chalk": "^4.1.0",
+    "cheerio": "^1.0.0-rc.5",
+    "got": "^11.8.2",
     "node-notifier": "^9.0.1",
     "open": "^8.0.2",
-    "selenium-webdriver": "^4.0.0-beta.1"
+    "request-promise": "^4.2.6"
   }
 }
