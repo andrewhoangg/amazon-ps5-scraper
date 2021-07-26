@@ -3,7 +3,7 @@
 Scrapes the PS5 listing on Amazon.com through web requests and checks for an "Add to cart" button to verify inventory.  
 
 ## NOTE
-You might get limited because I did not add rotating proxies support because I don't have access to any. I'll add them in the future but for now, you can change the interval at which the consoles are checked for.
+You might get rate limited because I did not add rotating proxies support because I don't have access to any. I'll add them in the future but for now, you can change the interval at which the consoles are checked for.
 
 ## Installation
 
